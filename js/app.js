@@ -33,9 +33,8 @@ $(document).ready(function() {
 
 
 
-
     var searchOptions = {
-        url: "https://cors-anywhere.herokuapp.com/cities.json",
+        url: "cities.json",
         getValue: "name",
         list: {
             match: {
